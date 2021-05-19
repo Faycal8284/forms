@@ -1,5 +1,7 @@
 export interface Personne {
-id?:number;
+id?:any;
 nom?:string;
 prenom?:string;
+salaire?:number;
+ville?:string
 }
